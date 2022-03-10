@@ -12,8 +12,18 @@
     </style>
 </head>
 <body class="exercicio">
+    <div id="app" @click="aplicadorCor =!aplicadorCor"
+    :class="{vermelho: aplicadorCor}">
+        Teste
+    </div>
 
     <script>
+        new Vue({
+            el:"#app",
+            data: {
+                aplicadorCor: false
+            }
+        })
         // ...
     </script>
 </body>
