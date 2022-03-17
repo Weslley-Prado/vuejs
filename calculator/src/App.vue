@@ -5,7 +5,6 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 
-
 export default {
   name: 'App',
   components: {
@@ -15,18 +14,16 @@ export default {
 </script>
 
 <style>
-
 @font-face {
-    font-family: "RobotoMono";
+    font-family: "Roboto";
     src: url("./fonts/Roboto-Thin.ttf");
 }
 * {
-    font-family: "RobotoMono", monospace;
+    font-family: "Roboto", monospace;
 }
 body {
     margin: 0;
 }
-
 #app {
     display: flex;
     flex-direction: column;

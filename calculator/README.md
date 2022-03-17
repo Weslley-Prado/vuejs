@@ -1,4 +1,4 @@
-# calculatorvue
+# calculator
 
 ## Project setup
 ```
