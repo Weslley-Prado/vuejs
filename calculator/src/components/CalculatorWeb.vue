@@ -27,7 +27,7 @@
 import DisplayCalculator from './Display.vue'
 import ButtonCalculator from './Button.vue'
 export default {
-  name: 'HelloWorld',
+  name: 'CalculatorWeb',
   components: {
       DisplayCalculator,ButtonCalculator,
 
