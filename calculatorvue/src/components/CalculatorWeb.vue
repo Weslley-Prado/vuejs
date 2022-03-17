@@ -25,9 +25,9 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'CalculatorWeb',
   props: {
-    
+    msg: String
   }
 }
 </script>
